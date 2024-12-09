@@ -1,2 +1,0 @@
-# FiberVolumeContent_ConvNet
-FiberVolumeContent_ConvNet
