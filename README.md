@@ -10,21 +10,21 @@ $log[-ln(1-X_r)] = n\cdot log[t] + log[k]$
 
 which is representing the well-known linear equation:
 
-&emsp;&emsp;$y = slope\cdot x + intercept$
+$y = slope\cdot x + intercept$
 
 from where we see that the Avrami parameter is the slope of the line and $log[k]$ is the intercept.
 In the first equation, $X_r$ is the relative crystallization degree (normalized to achieve values between $0-1$, but in practice only data with crystallinity between 20 and 80%, i.e., in the  normalized range of [0.2, 0.8] are included in the equation). The time zero is assumed to be the time where the crstallization degree is 0.1%. $k$ is the uncorrected crystallization rate constant, however, this script uses the cooling rate-corrected $k$, which is named $k_c$. Knowing the intercept of the fitted line, as well as the cooling rate, one can calculate $k_c$ by:
 
-&emsp;&emsp;$k_c = 10^\frac{intercept}{cooling ~ rate}$
+$k_c = 10^\frac{intercept}{cooling ~ rate}$
 
 <br/><br/>
 **NOTE:** A similar form of the first equation above is commonly used in the literature, where $log$ is replaced by $ln$, leading to the equation
 
-&emsp;&emsp;$ln[-ln(1-X_r)] = n\cdot ln[t] + ln[k]$
+$ln[-ln(1-X_r)] = n\cdot ln[t] + ln[k]$
 
 which also leads to the following value of $k_c$:
 
-&emsp;&emsp;$k_c = e^\frac{intercept}{cooling ~ rate}$
+$k_c = e^\frac{intercept}{cooling ~ rate}$
 
 The last two equations give the same results of $n$ and $k_c$ as the first two equations above.
 
