@@ -6,7 +6,7 @@
 
 Exothermic peaks of DSC curves are used to generate a Jeziorny plot of the non-isothermal crystallization (see Polymers 2021, 13, 582. https://doi.org/10.3390/polym13040582 for more info and ref 35 of this paper for the Jeziorny analysis $-$ both PDF files are availabble in this repository). Acccording to the Jeziorny analysis, the Avrami parameter ($n$) and the crystallization rate corrected for the cooling rate ($k_c$) can be obtained by plotting $log[-ln(1-X_r)]$ as a function of $log[t]$ (where the time $t$ is given in minutes), whose linear fit gives the following equation:
 
-&emsp;&emsp;$log[-ln(1-X_r)] = n\cdot log[t] + log[k]$
+&emsp;&emsp;$$log[-ln(1-X_r)] = n\cdot log[t] + log[k]$$
 
 which is representing the well-known linear equation:
 
