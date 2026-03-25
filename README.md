@@ -1,5 +1,5 @@
 # Model for predicting the fiber volume content of composites from SEM images
-## Demonstration of the model
+## Demonstration of the model (don't forget to unzip the file provided!)
 
 **Paper**: F. Rothenhaeusler, R. Q. Albuquerque, M. Sticher, C. Kuenneth, and H. Ruckdaeschel. “Application of convolutional neural networks and ensemble methods in the fiber volume content analysis of natural fiber composites”. Machine Learning with Applications 19 (2025), 100609. Web: https://doi.org/10.1016/j.mlwa.2024.100609
 
